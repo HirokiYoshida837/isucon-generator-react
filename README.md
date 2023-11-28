@@ -14,9 +14,13 @@ Next.js 13 の Page router を利用し、static exportしたものをGitHub Pag
 npm run dev
 ```
 
-
 ## ビルド
 
 ```shell
 npm run build
 ```
+
+
+## License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
