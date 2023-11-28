@@ -7,6 +7,9 @@ ISUCONのベンチーマーカや初期データの生成に利用されてい�
 
 Next.js 13 の Page router を利用し、static exportしたものをGitHub Pageにて公開しています。
 
+- [ISUCON12 予選 : コンテスト名・テナント名ジェネレーター](https://hirokiyoshida837.github.io/isucon-generator-react/isucon12q/)
+
+
 
 ## 動かし方
 
