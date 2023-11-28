@@ -7,34 +7,34 @@ import Head from "next/head";
 
 const Page: NextPage = () => {
 
-    return (
-        <>
-            <Head>
-                <title>ISUCON12 予選 : コンテスト名・テナント名ジェネレーター</title>
-            </Head>
+  return (
+    <>
+      <Head>
+        <title>ISUCON12 予選 : コンテスト名・テナント名ジェネレーター</title>
+      </Head>
 
-            <Container>
+      <Container>
 
-                <h1>
-                    ISUCON12 予選 : コンテスト名・テナント名ジェネレーター
-                </h1>
+        <h1>
+          ISUCON12 予選 : コンテスト名・テナント名ジェネレーター
+        </h1>
 
-                <p>
-                    ISUCON12予選のデータ生成に利用されている処理のReact移植版です
-                    <br/>
-                    <Link href={'https://github.com/isucon/isucon12-qualify/blob/main/data/rand.go'} target={'_blank'}
-                          rel="nofollow noopener noreferrer">
-                        元実装はこちら
-                    </Link>
-                </p>
+        <p>
+          ISUCON12予選のデータ生成に利用されている処理のReact移植版です
+          <br/>
+          <Link href={'https://github.com/isucon/isucon12-qualify/blob/main/data/rand.go'} target={'_blank'}
+                rel="nofollow noopener noreferrer">
+            元実装はこちら
+          </Link>
+        </p>
 
 
-                <TenantName/>
-                <ContestName/>
-            </Container>
+        <TenantName/>
+        <ContestName/>
+      </Container>
 
-        </>
-    )
+    </>
+  )
 }
 
 const Container = styled.div`
